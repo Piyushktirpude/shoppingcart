@@ -1,0 +1,10 @@
+/* HTML: <div class="loader"></div> */
+.spinner {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid rgb(3, 36, 48);
+  border-right-color: black;
+  animation: l2 1s infinite linear;
+}
+@keyframes l2 {to{transform: rotate(1turn)}}
